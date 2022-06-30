@@ -14,12 +14,18 @@ $(document).ready(function(){
 </script>
 </head>
 <body>
-<h1>Hello World</h1>
+  <div class="container">
+  <h1>Get Me Some PRoPs</h1>
   <p>
     <button id="btn_ajax" name="btn_ajax_1">Get All Properties</button>
   </p>
+  </div>
 </body>
 <style>
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
   h1::before {  
     transform: scaleX(0);
     transform-origin: bottom right;
